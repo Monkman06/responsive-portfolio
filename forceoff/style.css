@@ -1,5 +1,5 @@
 body {
-  background: url(ATATpic.jpg) no-repeat center center fixed;
+  background: url(ATATpic.jpg) no-repeat center center fixed;/* Background image & titila */
   font-family: 'Share Tech Mono', Arial, Helvetica, sans-serif;
 }
 
@@ -9,20 +9,20 @@ img {
   border-radius: 10px;
 }
 
-.character-image {
+.character-image {/* */
   padding: 0px 16px;
   margin: 3px 0px;
 }
 
-.section-title {
+.section-title {/* */
   font-size: 200%;
 }
 
-.action-section {
+.action-section { /* */
   margin: 15px 0px;
 }
 
-.main-section-title {
+.main-section-title {/* */
   font-size: 300%;
   text-align: center;
 }
@@ -53,46 +53,46 @@ img {
   background-color: red;
 }
 
-#selected-character {
+#selected-character {/* */
   width: 190px;
   height: 160px;
 }
 
-#attacker {
+#attacker {/* */
   width: 190px;
   height: 160px;
 }
 
-#defender {
+#defender {/* */
   width: 190px;
   height: 160px;
 }
 
-#defender-name {
+#defender-name {/* */
   text-align: center;
 }
 
-#defender-image {
+#defender-image {/* */
   padding: 0px 16px;
   margin: 3px 0px;
 }
 
-#defender-health {
+#defender-health {/* */
   text-align: center;
 }
 
-#choose-enemy-button {
+#choose-enemy-button {/* */
   visibility: hidden;
 }
 
-#restart-button {
+#restart-button {/* */
   visibility: hidden;
 }
 
-#turn-counter {
+#turn-counter {/* */
   font-size: 150%;
 }
-.target-enemy {
+.target-enemy {/* */
   background-color: black;
   color: white;
 }
