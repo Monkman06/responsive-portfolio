@@ -22,7 +22,7 @@ $(document).on('click', '#start', function(e) {
 ///////////////////////////////////////////////////////////////////////////////
 
 var questions = [{
-  question: "On the surface, the world portrayed in this novel is perfect: however, it's probably the most nightmarish scenario  imaginable.",
+  question: "On the surface, the world portrayed in this novel is perfect: however, it's probably the most nightmarish scenario imaginable.",
   answers: ['The Sleeper Awakes', 'WE', '1984', 'Brave New World'],
   correctAnswer: "Brave New World",
   image:"images/bravenewworld.jpg"
@@ -47,7 +47,7 @@ var questions = [{
   correctAnswer: "libria",
   image:"images/preston.jpg"
 }, {
-  question: "What London based relative is always watching your activities?",
+  question: "What London based surrogate relative persistantly monitors your activities?",
   answers: ["Control", "Mustafa Monds", "Big Brother", "Father"],
   correctAnswer: "Big Brother",
   image:"images/brother.jpg"
