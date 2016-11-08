@@ -2,7 +2,7 @@
 // ==================================================================================================
 
 // Array of Word Options (all lowercase)
-var wordsList   = ["England", "Italy", "France", "Russia", "Serbia", "Japan", "America", "Turkey", "Germany", "AustriaHungary", "Canada", "Bulgaria"];
+var wordsList   = ["england", "italy", "france", "russia", "serbia", "japan", "america", "turkey", "germany", "austriahungary", "canada", "bulgaria"];
 var chosenWord  = ""; // solution will be held here.
 var lettersInChosenWord = []; // This will break the solution into individual letters to be stored in array
 var numBlanks = 0; // This will be the number of blanks we show based on the solution
