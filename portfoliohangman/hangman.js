@@ -49,8 +49,6 @@ function startGame() {
   // Clears the wrong guesses from the previous round
   document.getElementById('wrongGuesses').innerHTML = wrongGuesses.join(" ");
 
-
-
 }
 
 // checkLettesr() function
@@ -117,9 +115,7 @@ function roundComplete(){
     document.getElementById("lossCounter").innerHTML= lossCounter; 
     startGame(); // restart the game
   }
-
 }
-
 // MAIN PROCESS (THIS IS THE CODE THAT CONTROLS WHAT IS ACTUALLY RUN)
 // ==================================================================================================
 
