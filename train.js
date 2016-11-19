@@ -6,14 +6,17 @@
 4. Create a way to retrieve trains from the trainlist.
 5. Create a way to calculate the time way. Using difference between start and current time.Then take the difference and modulus by frequency. (This step can be completed in either 3 or 4)
 */
-// Initialize Firebase
+
 var config = {
-  apiKey: "AIzaSyCcPFcbAjIsgXGQwE-A3AcOXkeD40qypE8",
-  authDomain: "train-times-93583.firebaseapp.com",
-  databaseURL: "https://train-times-93583.firebaseio.com",
-  storageBucket: "train-times-93583.appspot.com",
-};
-firebase.initializeApp(config);
+    apiKey: "AIzaSyAeJX6ppJGuxgq7Cap18AbnaSXD5aPpuvM",
+    authDomain: "monkweek7.firebaseapp.com",
+    databaseURL: "https://monkweek7.firebaseio.com",
+    storageBucket: "",
+    messagingSenderId: "88411906450"
+  };
+  firebase.initializeApp(config);
+
+var database = firebase.database();
 
 var trainData = firebase.database();
 
