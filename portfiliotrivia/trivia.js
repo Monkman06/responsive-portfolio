@@ -58,7 +58,7 @@ var questions = [{
 var game = {
   correct:0,
   incorrect:0,
-  counter:120,
+  counter:150,
   countdown: function(){
     game.counter--;
     $('#counter-number').html(game.counter);
