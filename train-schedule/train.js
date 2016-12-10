@@ -61,7 +61,6 @@ $("#addTrainBtn").on("click", function(){
   return false;
 });
 
-
 // 4. Create Firebase event for adding trains to the database and a row in the html when a user adds an entry
 trainData.ref().on("child_added", function(childSnapshot, prevChildKey){
 
@@ -96,19 +95,6 @@ trainData.ref().on("child_added", function(childSnapshot, prevChildKey){
 
 // Assume the following situations. 
 
-// (TEST 1) 
-// First Train of the Day is 3:00 AM 
-// Assume Train comes every 3 minutes.
-// Assume the current time is 3:16 AM....
-// What time would the next train be...? (Use your brain first)
-// It would be 3:18 -- 2 minutes away
-
-// (TEST 2) 
-// First Train of the Day is 3:00 AM 
-// Assume Train comes every 7 minutes.
-// Assume the current time is 3:16 AM....
-// What time would the next train be...? (Use your brain first)
-// It would be 3:21 -- 5 minutes away
 
 
 // ==========================================================
