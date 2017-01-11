@@ -1,6 +1,5 @@
 // GLOBAL VARIABLES (Accessible by all functions)
 // ==================================================================================================
-
 // Array of Word Options (all lowercase)
 var wordsList   = ["england", "italy", "france", "russia", "serbia", "japan", "america", "turkey", "germany", "austriahungary", "canada", "bulgaria"];
 var chosenWord  = ""; // solution will be held here.
@@ -25,7 +24,7 @@ function startGame() {
 
   chosenWord = wordsList[Math.floor(Math.random() * wordsList.length)]; // solution is chosen randomly from wordList
   lettersInChosenWord = chosenWord.split(""); // the word is broken into individual letters
-  numBlanks = lettersInChosenWord.length; // we cound the number of letters in the word
+  numBlanks = lettersInChosenWord.length; // we count the number of letters in the word
 
   console.log(chosenWord); // We print the solution in console (for testing)
 
@@ -39,7 +38,6 @@ function startGame() {
 
   console.log(blanksAndSuccesses); // print the initial blanks in console.
 
-
   // Reprints the guessesLeft to 9
   document.getElementById("guessesLeft").innerHTML = numGuesses;
   
@@ -52,7 +50,7 @@ function startGame() {
 }
 
 // checkLettesr() function
-// It's where we will do all of the comparisons for matches. Again, it's not being called here. It's just being made for future use.
+// where we will do all of the comparisons for matches. Again, it's not being called here. It's just being made for future use.
 function checkLetters(letter) {
 
   var letterInWord = false; // this boolean will be toggled based on whether or not a user letter is found anywhere in the word
@@ -124,8 +122,8 @@ startGame();
 
 // Then initiates the function for capturing key clicks.
 document.onkeyup = function(event) {
-  letterGuessed = String.fromCharCode(event.keyCode).toLowerCase(); // converts all key clicks to lowercase lettesr
+  letterGuessed = String.fromCharCode(event.keyCode).toLowerCase(); // converts clicks to lowercase letters
   
-  checkLetters(letterGuessed); // runs the code to check for correctness 
+  checkLetters(letterGuessed); // runs code to check for correctness 
   roundComplete(); // runs the code after each round is done
 }
