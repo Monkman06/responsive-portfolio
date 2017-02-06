@@ -33,12 +33,41 @@
    <li><a href="https://github.com/Monkman06"> <img src="images/github.png" alt="" height="60" width="60"></a></li>
      
    <li><a href="https://stackoverflow.com/users/6642227/paul-t-keays?tab=profile"> <img src="images/stackoverflowlogo.png" alt="" height="60" width="60"></a></li>
+
+
+<li>
+
+<div id=outer><div id=cover><div id=salute></div><div id=dt></div><div id=da></div><div id=time></div></div></div>
+
+<script>function clock(){var date=new Date();var weekday=date.getDay();var year=date.getYear();var month=date.getMonth();var day=date.getDate();var hour=date.getHours();var minute=date.getMinutes();var second=date.getSeconds();var days=new Array ("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday" );var months=new Array("January","February","March","April","May","June","July","August","September","October","November","december");var monthname=months[month];var dayname=days[weekday];var ap;var sal;if(year<1000){year=year+1900} if(hour<12 &&minute<60 &&second<60){sal='Good Morning';} if(hour>=12 &&hour<17 &&minute<60 &&second<60 ){sal='Good Afternoon';} if(hour>=17 &&hour<24 &&minute<60 &&second<60 ){sal='Good Evening';} if(hour>=24){hour=hour-24;ap='';}else{ap='';} if(minute<10){minute="0"+minute} if(second<10){second="0"+second};
+document.getElementById('time').innerHTML=hour+" : "+ minute +" : "+second+" " +ap; 
+document.getElementById('da').innerHTML=dayname;
+document.getElementById('dt').innerHTML=monthname+" "+day+", "+year;
+document.getElementById('salute').innerHTML=sal;setTimeout("clock()",60000)}window.onload=function(){clock();}
+// Widget Code by http://widgetcodes.com/
+</script>
+
+<style>#outer{width:250px;background:#fff;text-align:center;}
+#cover{padding:4px 0;background:#000;box-shadow:inset 10px 10px 100px #666,inset -10px -10px 100px #666;border:1px solid #fff;border-radius:7px}
+a.head,a.head:visited{text-align:center;line-height:15px;height:15px;color:#111;margin:2px 1px;text-decoration:none;display:block;padding:0;font-weight:bold;background:#fff;box-shadow:inset 0 -10px 10px #ccc;text-shadow:#aaa 1px 1px 1px}
+a.head:hover{background:#ccc;box-shadow:inset 0 -10px 10px #fff}
+#calendar{height:57px;margin:0;text-align:center;padding:7px 0 4px}
+table.dc{border:0;margin:0 auto;height:57px;border-collapse:collapse}.dc td{border:0;text-align:center;padding:0}
+#event{font-family:arial,helvetica,sans serif;width:92%;border:0;text-align:center;margin:2px 4% 0 4%;background:none;padding:0;color:#fff;min-height:15px;font-size:11px}
+table.main{width:92%;margin:0 4%;border-collapse:collapse}.main td{padding:0;text-align:center}
+#clock{width:80px;float:left;text-align:center;height:57px;margin:0;padding:7px 0 4px 0}
+embed{border:1px solid #fff;height:54px;width:55px;margin:0;padding:0}
+#salute,#da,#dt,#time{color:#fff;font-size:15px;font:600 15px verdana;text-align:center;text-shadow:#222 1px 1px 1px;padding:3px}#salute{color:#0ff}</style>
+
+</li>
+
+   
   </ul></div><!-- /.navbar-collapse --></div><!-- /.container-fluid -->
 </nav>
 
 <body background="images/marble.jpg">
 
-  <div class="well well-sm" id="well">
+  <!--<div class="well well-sm" id="well">-->
     <font color="#D3D3D3"><h3><center>ABOUT:</center></h3>
     
     <h4><center>Highly motivated, creative Front End Development/ Designer: Fullstack trained with a background in History, Criminal Justice, and Fitness. Works well with a team or individually building efficient, user friendly applications as well as improving existing ones.
@@ -48,7 +77,7 @@
 <font color="#D3D3D3"><h3><center>TECHNICAL SKILLS:</center></h3>
 <h4><center>HTML5, CSS, Bootstrap, JavaScript, Node.js, Express, Handlebars, jQuery, GIT, Github, SQL, APIs, JSON, REST, AJAX, React.js, React Native, command line interface, computer science fundamentals </center></h4>
 </font>
-</div>
+<!--</div>-->
 
 <br>
 
