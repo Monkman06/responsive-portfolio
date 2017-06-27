@@ -4,7 +4,7 @@
   // displayMovieInfo function now re-renders the HTML to display the appropriate content. 
   function displayMovieInfo(){
     var movie = $(this).attr('data-name');
-    var queryURL = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&r=json";
+    var queryURL = "http://www.omdbapi.com/?t=" + movie + "tt3896198&apikey=bec8c998";
     // Creates AJAX call for the specific movie being 
     $.ajax({url: queryURL, method: 'GET'}).done(function(response) {
       // Creates a generic div to hold the movie
