@@ -3,10 +3,8 @@ var images = ["images/bootstrap.png", "images/github-logo.jpg", "images/logo_Jav
 
 var count = 0;
 
-
 $('#start').click(startSlideshow);
 $('#stop').click(stopSlideshow);
-
 
 function displayImage (){
     $('#image-holder').html('<img src='+images[count]+ ' width="400px">');
