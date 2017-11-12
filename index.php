@@ -1,1 +1,1 @@
-<?php include_once("intro.html"); ?>
+<?php include_once("index-gallery-wordpress.html"); ?>
