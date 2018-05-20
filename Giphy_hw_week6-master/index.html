@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Animal Giphy HW</title>
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <nav class="navbar navbar-inverse">
+       <div class="container-fluid">
+         <a><center><h1>Animal Giphy</h1><center></a>
+      </div>
+     </nav>
+   <style type="text/css">
+     body { background: grey !important;} 
+   </style>
+</head>
+<body> 
+      <div id="fullSiteContainer" class="container">
+        <div id="animalButtonSection" class="row container">
+        <!-- animal buttons get appended here -->
+        </div>
+        <div id="imageAndFormContainer" class="row container">
+            <div id="imageContainer" class="container col-md-8">
+              <!-- images append point -->
+            </div>
+            <center><div id="formContainer" class="container col-md-4">
+            
+              <form>
+              
+                <div class="form-group">
+                  <label for="getAnimal"><h3>Pick a critter!</h3></label>
+                  <input id="getAnimal" type="text" class="form-control" placeholder="choose an animal" autocomplete="off">
+                  <input id="findAnimal" type="submit" value="add to the pack"></input>
+                    
+                  </input>
+                </div>
+                </center>
+              </form>
+
+            </div>
+
+        </div>
+      </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="giphy.js"></script>
+   
+  </body>
+</html>
